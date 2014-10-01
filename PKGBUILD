@@ -9,7 +9,7 @@ license=('BSD')
 depends=('python')
 makedepends=('git')
 options=(!emptydirs)
-source=("$pkgname:git+https://github.com/nojan1/gps-python3.git")
+source=("$pkgname::git+https://github.com/nojan1/gps-python3.git")
 md5sums=('SKIP')
 
 pkgver() {
